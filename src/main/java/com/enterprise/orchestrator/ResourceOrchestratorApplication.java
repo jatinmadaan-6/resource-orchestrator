@@ -1,0 +1,11 @@
+package com.enterprise.orchestrator;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ResourceOrchestratorApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ResourceOrchestratorApplication.class, args);
+    }
+}
